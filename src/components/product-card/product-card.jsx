@@ -2,13 +2,17 @@ import { useState } from "react";
 import "./product-card.css";
 import StarRating from "../star-rating";
 
+
 function ProductCard({ productName, productImages }) {
   const [selectedColor, setSelectedColor] = useState(1);
 
   return (
     <>
       <div className="card">
-        <img src={productImages.yellow} alt="" className="image-card" />
+        <img src={selectedColor === 1 ? productImages.yellow :
+            selectedColor === 2 ? productImages.white :
+            selectedColor === 3 ? productImages.rose : ""
+        } alt="" className="image-card" />
         <div className="card-content">
           <h3 className="card-title">{productName}</h3>
           <p className="card-price">$150USD</p>
