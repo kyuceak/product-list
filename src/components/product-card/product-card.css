@@ -1,0 +1,39 @@
+
+
+.card{
+    padding: 0.5rem;
+}
+
+
+.card img{
+    width: 100%;
+}
+
+.colors {
+    display: flex;
+    gap: 1rem;
+  }
+  .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .color-1 {
+    background-color: #e6ca97;
+  }
+  
+  .color-2 {
+    background-color: #d9d9d9;
+  }
+  
+  .color-3 {
+    background-color: #e1a4a9;
+  }
+  
+  .selected {
+    outline: 1px solid black;
+    outline-offset: 0.35rem;
+  }
+  

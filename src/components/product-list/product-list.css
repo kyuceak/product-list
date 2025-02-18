@@ -1,0 +1,50 @@
+.item-wrapper {
+  width: 100%;
+  max-width: 80vw;
+  position: relative;
+}
+
+.wrapper-title {
+  text-align: center;
+}
+
+.items-container {
+  width: 100%;
+  /* padding: 2rem; */
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+  
+}
+
+.items-container * {
+  box-sizing: border-box;
+}
+
+.custom-nav {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.prev {
+  left: -4rem;
+  transform: rotate(180deg);
+}
+
+.next {
+  right: -4rem;
+}
+
+.swiper-scrollbar {
+  height: 8px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.swiper-scrollbar-drag {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  height: 8px;
+}
