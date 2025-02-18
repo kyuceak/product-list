@@ -138,11 +138,12 @@ function ProductList() {
         
         {products &&
           products.map((product, index) => {
+
+            
             return (
               <SwiperSlide key={index}>
                 <ProductCard
-                  productName={product.name}
-                  productImages={product.images}
+                  product={product}
                 />
               </SwiperSlide>
             );

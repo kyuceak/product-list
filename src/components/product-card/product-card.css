@@ -11,7 +11,14 @@
 
 .card-title{
     font-family: "Montserrat-Medium";
+    font-weight: 15;
 }
+
+.card-price{
+    font-family: "Montserrat-Regular";
+    font-weight: 15;
+}
+
 
 .colors {
     display: flex;
@@ -39,5 +46,20 @@
   .selected {
     outline: 1px solid black;
     outline-offset: 0.35rem;
+  }
+
+  .color-desc{
+    font-family: "Avenir";
+    font-weight: 12;
+    margin-bottom: 0;
+  }
+
+
+  .card-rating{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Avenir";
+    font-weight: 14;
   }
   
