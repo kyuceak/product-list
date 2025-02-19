@@ -12,9 +12,11 @@
 .card-title{
     font-family: "Montserrat-Medium";
     font-weight: 15;
+    margin-bottom: 0;
 }
 
 .card-price{
+    
     font-family: "Montserrat-Regular";
     font-weight: 15;
 }
@@ -23,8 +25,10 @@
 .colors {
     display: flex;
     gap: 1rem;
+    padding-left: 0.3rem;
   }
   .circle {
+    margin-top: 0.8rem;
     width: 30px;
     height: 30px;
     border-radius: 50%;

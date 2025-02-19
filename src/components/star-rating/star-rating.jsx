@@ -1,7 +1,7 @@
 import { FaStar } from "react-icons/fa";
 import "./star-rating.css";
 
-function StarRating({ popularityScore,rating }) {
+function StarRating({ rating }) {
 
   
 

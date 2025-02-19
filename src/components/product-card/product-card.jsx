@@ -66,7 +66,7 @@ function ProductCard({ product }) {
               : ""}
           </p>
            <div className="card-rating">
-           <StarRating popularityScore={product.popularity_score} rating={rating} />
+           <StarRating rating={rating} />
            <p className="rating-number">{rating} / 5 </p>
 
            </div>
