@@ -1,15 +1,13 @@
-import ProductList from "./components/product-list/product-list"
-import "./app.css"
+import ProductList from "./components/product-list/product-list";
+import "./App.css";
 import "./index.css";
 
 function App() {
- 
-
   return (
-  <>
-     <ProductList/>
+    <>
+      <ProductList />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
