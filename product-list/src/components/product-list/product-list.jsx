@@ -9,7 +9,7 @@ import nextSvg from "../../assets/next.svg";
 import useData from "../../hooks/useData";
 
 function ProductList() {
-  const {data:products, loading, error} = useData("http://127.0.0.1:8000/products/");
+  const {data:products, loading, error} = useData("https://kyuceak-api-84f479b86a99.herokuapp.com/products/");
 
   return (
     <div className="item-wrapper">
